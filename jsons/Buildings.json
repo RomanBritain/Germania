@@ -21,5 +21,18 @@
 		"happiness": 2,
 		"uniques": ["40% of food is carried over after a new citizen is born"],
 		"requiredTech": "Engineering"
-	}
+	},
+{
+                "name": "Ruhr Valley",
+                "replaces": "Ironworks",
+                "uniqueTo": "Germany",
+                "cost": 125,
+                "production": 8,
+                "culture": 1,
+                "isNationalWonder": true,
+                "uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
+                       
+                        "[+1 Production, +1 Science] from every [Engineer]"],
+                "requiredTech": "Machinery"
+        }
 ]
